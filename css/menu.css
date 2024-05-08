@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+:root {
+    --cor0: #D9CB04;
+    --cor1: #F2B138;
+    --cor2: #a65a17;
+    --cor3: #F23207;
+    --cor4: #401111;
+
+    --fonte-Titulo: "Archivo Black", sans-serif;
+    --fonte-subtitulo: "M PLUS 1p", sans-serif;
+    --font-restante: "Abel", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.menu {
+
+    padding-top: 15px;
+    width: 200px;
+
+}
+
+.menu-h2 {
+    padding: 10px;
+}
+
+.burger {
+    padding-top: 15px;
+    width: 300px;
+}
+
+.selected-ingredients {
+    padding-left: 20px;
+}
+
+.category {
+    padding: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu.show {
+    display: block;
+    padding-left: 20px;
+}
+
+.ingredient {
+    cursor: pointer;
+}
+
+.remove-ingredient {
+    background-color: #ff0000;
+    color:#ffffff;
+    border: 2px solid black;
+    padding: 8px 11px;
+    border-radius: 20%;
+    cursor: pointer;
+}

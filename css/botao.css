@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+:root {
+    --cor0: #D9CB04;
+    --cor1: #F2B138;
+    --cor2: #a65a17;
+    --cor3: #F23207;
+    --cor4: #401111;
+
+    --fonte-Titulo: "Archivo Black", sans-serif;
+    --fonte-subtitulo: "M PLUS 1p", sans-serif;
+    --font-restante: "Abel", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor4);
+}
+
+.botao {
+    font-family: var(--font-restante);
+    border-style: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 6px 13px;
+    background-color: var(--cor3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow .6s ease; 
+}
+
+.botaoEntrar {
+    font-family: var(--font-restante);
+    border-style: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 2px 10px;
+    background-color: var(--cor4);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow .6s ease; 
+}
+
+.botaoCadastre-se {
+    font-family: var(--font-restante);
+    border-style: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 2px 10px;
+    background-color: var(--cor3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow .6s ease; 
+}
+
+.botaoCrieSeuLanche{
+    font-family: var(--font-restante);
+    border-style: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 6px 13px;
+    background-color: var(--cor3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow .6s ease; 
+    margin: 50px;
+}
+
+.botaoCardapio{
+    font-family: var(--font-restante);
+    border-style: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 6px 13px;
+    background-color: var(--cor3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow .6s ease; 
+    margin: 50px;
+}
+
+.botoesDaImg>.botaoCardapio>.botaoCrieSeuLanche{
+    text-align: center;
+
+}
+

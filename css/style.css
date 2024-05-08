@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+:root {
+    --cor0: #D9CB04;
+    --cor1: #F2B138;
+    --cor2: #a65a17;
+    --cor3: #F23207;
+    --cor4: #401111;
+
+    --fonte-Titulo: "Archivo Black", sans-serif;
+    --fonte-subtitulo: "M PLUS 1p", sans-serif;
+    --font-restante: "Abel", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho {
+    background-color: var(--cor0);
+}
+
+.cabeçalho2>.acesso {
+    text-align: right;
+    padding: 30px 30px 0px 0px;
+
+}
+
+.cabeçalho2>.logo {
+    text-align: center;
+}
+
+p {
+    font-family: var(--fonte-subtitulo);
+    font-size: 20px;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(6, 6, 6, 0.384);
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav>a {
+    color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.1s;
+}
+
+nav>a:hover {
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+
+
+.sobreposiçãoDoTextoNaImg {
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+    align-items: center;
+    /* Centraliza a imagem verticalmente */
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.container1>h2 {
+    border: 2px solid black;
+    font-family: var(--fonte-Titulo);
+    font-size: 76px;
+}
+
+.container1>h3 {
+    font-family: var(--fonte-subtitulo);
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1054px) {
+    .nomeDoSite {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+.subtitulo {
+    font-size: 30px;
+    font-family: var(--fonte-subtitulo);
+    text-align: center;
+    color: white;
+    margin: 20px;
+}

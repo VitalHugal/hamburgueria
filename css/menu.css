@@ -31,14 +31,13 @@
 }
 
 .menu {
-
     padding-top: 15px;
     width: 200px;
 
 }
 
 .menu-h2 {
-    padding: 10px;
+    padding-bottom: 15px;
 }
 
 .burger {
@@ -48,6 +47,8 @@
 
 .selected-ingredients {
     padding-left: 20px;
+    padding: 10px;
+    
 }
 
 .category {
@@ -67,6 +68,7 @@
 
 .ingredient {
     cursor: pointer;
+    
 }
 
 .remove-ingredient {

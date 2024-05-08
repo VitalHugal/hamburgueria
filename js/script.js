@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    //responsável por adicionar um ouvinte de evento de clique a todos os ingredientes no menu lateral
+    //responsável por adicionar evento de clique a todos os ingredientes no menu lateral
     const ingredients = document.querySelectorAll('.ingredient');
     ingredients.forEach(ingredient => {
         ingredient.addEventListener('click', function () {

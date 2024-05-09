@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 image.src = 'img/ingredientes/pao-frances-cima.png';
                 image.alt = 'Imagem do Ingrediente';
 
-                image.style.width = '150px';
+                image.style.width = '180px';
                 // Adicionando o ingrediente como um elemento de imagem
                 addIngredientToBurger(burger, image);
             } else {
@@ -97,6 +97,9 @@ document.addEventListener('DOMContentLoaded', function () {
             // Removendo o ingrediente quando o botão é clicado
             li.remove();
         });
+
+        //classe para estilização no css
+        li.className = 'burger-ingredient'; 
 
         //adiciona o botao de retirar item no li ao lado do nome ou imagem
         li.appendChild(closeButton);

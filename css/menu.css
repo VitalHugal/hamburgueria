@@ -42,7 +42,7 @@
 
 .burger {
     padding-top: 15px;
-    width: 200px;
+    width: 300px;
 }
 
 .selected-ingredients {
@@ -68,10 +68,10 @@
 
 .ingredient {
     cursor: pointer;
-    
 }
 
 .remove-ingredient {
+    margin-left: 20px;
     background-color: #ff0000;
     color:#ffffff;
     border: 2px solid black;
@@ -81,5 +81,8 @@
 }
 
 .lista-sem-bolinhas{
+    list-style-type: none;
+}
+.burger-ingredient {
     list-style-type: none;
 }

@@ -63,7 +63,7 @@ body{
     cursor: pointer;
     transition: box-shadow .6s ease; 
 }
-
+/* 
 .botaoCrieSeuLanche{
     font-family: var(--font-restante);
     border-style: none;
@@ -95,5 +95,5 @@ body{
 .botoesDaImg>.botaoCardapio>.botaoCrieSeuLanche{
     text-align: center;
 
-}
+} */
 

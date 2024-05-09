@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const image = document.createElement('img');
                 image.src = imageSrc;
                 image.alt = 'Imagem do Ingrediente';
-                image.style.width = '180px';
+                image.style.width = '120px';
 
                 // Adicionando o ingrediente como um elemento de imagem
                 addIngredientToBurger(burger, image);
@@ -149,7 +149,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Mapeia os nomes dos ingredientes para suas respectivas fontes de imagem
         const imageSources = {
             'Francês': 'img/ingredientes/pao-frances-cima.png',
+            'Australiano': 'img/ingredientes/australiano.png',
+            'Brioche': 'img/ingredientes/brioche.png',
             'Maionese': 'img/ingredientes/maionese.png',
+            'Ketchup': 'img/ingredientes/ketchup.png',
             'Alface': 'img/ingredientes/alface.png',
             'Picanha': 'img/ingredientes/picanha.png',
             'Cheddar': 'img/ingredientes/cheddar.png',

@@ -32,7 +32,7 @@
 
 .menu {
     padding-top: 15px;
-    width: 200px;
+    width: 100px;
 
 }
 
@@ -42,7 +42,7 @@
 
 .burger {
     padding-top: 15px;
-    width: 300px;
+    width: 200px;
 }
 
 .selected-ingredients {
@@ -78,4 +78,8 @@
     padding: 8px 11px;
     border-radius: 20%;
     cursor: pointer;
+}
+
+.lista-sem-bolinhas{
+    list-style-type: none;
 }

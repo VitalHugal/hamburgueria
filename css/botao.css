@@ -63,37 +63,21 @@ body{
     cursor: pointer;
     transition: box-shadow .6s ease; 
 }
-/* 
-.botaoCrieSeuLanche{
+.botaoConfirmaLanche{
     font-family: var(--font-restante);
     border-style: none;
     border-radius: 15px;
-    height: 40px;
-    padding: 6px 13px;
+    height: 50px;
+    padding: 12px 40px;
     background-color: var(--cor3);
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
-    transition: box-shadow .6s ease; 
-    margin: 50px;
+    transition: box-shadow .6s ease;    
 }
-
-.botaoCardapio{
-    font-family: var(--font-restante);
-    border-style: none;
-    border-radius: 15px;
-    height: 40px;
-    padding: 6px 13px;
-    background-color: var(--cor3);
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: box-shadow .6s ease; 
-    margin: 50px;
+.confirmaLanche{
+    padding-top: 400px;
+    position: relative;
+    max-width: 100%;
+    height: auto;
 }
-
-.botoesDaImg>.botaoCardapio>.botaoCrieSeuLanche{
-    text-align: center;
-
-} */
-

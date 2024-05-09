@@ -118,3 +118,9 @@ nav>a:hover {
     color: white;
     margin: 20px;
 }
+
+.total{
+    padding-top: 50px;
+    text-align: center;
+    background-color: var(--cor0);
+}

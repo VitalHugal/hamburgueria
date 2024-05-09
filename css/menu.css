@@ -32,7 +32,7 @@
 
 .menu {
     padding-top: 15px;
-    width: 100px;
+    width: px;
 
 }
 
@@ -41,8 +41,9 @@
 }
 
 .burger {
+    text-align: center;
+    align-items: center;
     padding-top: 15px;
-    width: 300px;
 }
 
 .selected-ingredients {
@@ -51,7 +52,7 @@
     
 }
 
-.category {
+.category{
     padding: 2px;
     font-weight: bold;
     cursor: pointer;
@@ -62,12 +63,14 @@
 }
 
 .sub-menu.show {
+    
     display: block;
     padding-left: 20px;
 }
 
 .ingredient {
     cursor: pointer;
+    display: block;
 }
 
 .remove-ingredient {
@@ -85,4 +88,13 @@
 }
 .burger-ingredient {
     list-style-type: none;
+}
+
+
+.total{
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor0);
 }

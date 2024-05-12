@@ -125,11 +125,64 @@ nav>a:hover {
     background-color: var(--cor0);
 }
 
-.sobreNos{
-    text-align: center;
+.sobreNos {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    margin-bottom: 20px; /* Adiciona espaço entre os conjuntos */
 }
 
-.sobreNos img{
-    display: block;
-    margin: auto;
+.sobreNos img {
+    width: 600px;
+    height: auto;
+}
+
+.sobreNosDiv {
+    display: flex; /* Exibe como flex para usar flexbox */
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    background-color: black;
+    width: 450px;
+    height: 380px;
+    margin-left: 20px; /* Adiciona espaço entre a imagem e a div */
+}
+
+.sobreNosDiv p {
+    font-size: 30px;
+    color: white;
+    font-family: var(--font-restante);
+    text-align: center; /* Alinha o texto horizontalmente */
+}
+
+.sobreNos2 {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    margin-bottom: 20px; /* Adiciona espaço entre os conjuntos */
+}
+
+.sobreNos2 img {
+    width: 600px;
+    height: auto;
+}
+
+.sobreNosDiv2 {
+    display: flex; /* Exibe como flex para usar flexbox */
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    background-color: black;
+    width: 450px;
+    height: 380px;
+    margin-right: 20px; /* Adiciona espaço entre a imagem e a div */
+}
+
+.sobreNosDiv2 p {
+    font-size: 30px;
+    color: white;
+    font-family: var(--font-restante);
+    text-align: center; /* Alinha o texto horizontalmente */
+}
+.sobreNosDiv2 strong{
+    font-size: 35px;
+    color: var(--cor3);
 }

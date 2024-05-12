@@ -156,9 +156,9 @@ nav>a:hover {
 
 .sobreNos2 {
     display: flex;
-    justify-content: center; /* Alinha os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente */
-    margin-bottom: 20px; /* Adiciona espaço entre os conjuntos */
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
 }
 
 .sobreNos2 img {
@@ -167,20 +167,20 @@ nav>a:hover {
 }
 
 .sobreNosDiv2 {
-    display: flex; /* Exibe como flex para usar flexbox */
-    justify-content: center; /* Alinha os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     background-color: black;
     width: 450px;
     height: 380px;
-    margin-right: 20px; /* Adiciona espaço entre a imagem e a div */
+    margin-right: 20px; 
 }
 
 .sobreNosDiv2 p {
     font-size: 30px;
     color: white;
     font-family: var(--font-restante);
-    text-align: center; /* Alinha o texto horizontalmente */
+    text-align: center; 
 }
 .sobreNosDiv2 strong{
     font-size: 35px;

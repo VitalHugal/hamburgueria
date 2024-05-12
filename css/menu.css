@@ -98,3 +98,13 @@
     text-align: center;
     background-color: var(--cor0);
 }
+.acompanhamento {
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.bebidas {
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}

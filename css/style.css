@@ -21,6 +21,9 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .cabeçalho {
     background-color: var(--cor0);
@@ -104,12 +107,20 @@ nav>a:hover {
     font-size: 50px;
 }
 
-@media screen and (max-width: 1054px) {
-    .nomeDoSite {
-        font-size: 10px;
-        text-align: center;
+/* Estilos para telas com largura máxima de 1110x722 pixels */
+@media (max-width: 1110px) {
+    body {
+        max-width: 1110px; /* Limita a largura máxima do corpo */
+        margin: 0 auto; /* Centraliza o conteúdo na tela */
     }
 }
+
+@media (max-height: 722px) {
+    body {
+        max-height: 722px; /* Limita a altura máxima do corpo */
+    }
+}
+
 
 .subtitulo {
     font-size: 30px;
@@ -136,7 +147,7 @@ nav>a:hover {
 }
 
 .sobreNos img {
-    width: 600px;
+    width: 480px;
     height: auto;
 }
 
@@ -149,13 +160,13 @@ nav>a:hover {
     /* Alinha os itens verticalmente */
     background-color: black;
     width: 450px;
-    height: 380px;
+    height: 300px;
     margin-left: 20px;
     /* Adiciona espaço entre a imagem e a div */
 }
 
 .sobreNosDiv p {
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     font-family: var(--font-restante);
     text-align: center;
@@ -170,7 +181,7 @@ nav>a:hover {
 }
 
 .sobreNos2 img {
-    width: 600px;
+    width: 480px;
     height: auto;
 }
 
@@ -180,12 +191,12 @@ nav>a:hover {
     align-items: center;
     background-color: black;
     width: 450px;
-    height: 380px;
+    height: 290px;
     margin-right: 20px;
 }
 
 .sobreNosDiv2 p {
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     font-family: var(--font-restante);
     text-align: center;

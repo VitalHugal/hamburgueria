@@ -50,6 +50,18 @@ body{
     cursor: pointer;
     transition: box-shadow .6s ease; 
 }
+.botaoEnviar {
+    font-family: var(--font-restante);
+    border-style: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 2px 10px;
+    background-color: var(--cor3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow .6s ease; 
+}
 
 .botaoCadastre-se {
     font-family: var(--font-restante);

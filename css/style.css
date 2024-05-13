@@ -119,7 +119,7 @@ nav>a:hover {
     margin: 20px;
 }
 
-.total{
+.total {
     padding-top: 50px;
     text-align: center;
     background-color: var(--cor0);
@@ -127,9 +127,12 @@ nav>a:hover {
 
 .sobreNos {
     display: flex;
-    justify-content: center; /* Alinha os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente */
-    margin-bottom: 20px; /* Adiciona espaço entre os conjuntos */
+    justify-content: center;
+    /* Alinha os itens horizontalmente */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+    margin-bottom: 20px;
+    /* Adiciona espaço entre os conjuntos */
 }
 
 .sobreNos img {
@@ -138,27 +141,32 @@ nav>a:hover {
 }
 
 .sobreNosDiv {
-    display: flex; /* Exibe como flex para usar flexbox */
-    justify-content: center; /* Alinha os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente */
+    display: flex;
+    /* Exibe como flex para usar flexbox */
+    justify-content: center;
+    /* Alinha os itens horizontalmente */
+    align-items: center;
+    /* Alinha os itens verticalmente */
     background-color: black;
     width: 450px;
     height: 380px;
-    margin-left: 20px; /* Adiciona espaço entre a imagem e a div */
+    margin-left: 20px;
+    /* Adiciona espaço entre a imagem e a div */
 }
 
 .sobreNosDiv p {
     font-size: 30px;
     color: white;
     font-family: var(--font-restante);
-    text-align: center; /* Alinha o texto horizontalmente */
+    text-align: center;
+    /* Alinha o texto horizontalmente */
 }
 
 .sobreNos2 {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-bottom: 20px; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .sobreNos2 img {
@@ -167,22 +175,76 @@ nav>a:hover {
 }
 
 .sobreNosDiv2 {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     width: 450px;
     height: 380px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .sobreNosDiv2 p {
     font-size: 30px;
     color: white;
     font-family: var(--font-restante);
-    text-align: center; 
+    text-align: center;
 }
-.sobreNosDiv2 strong{
+
+.sobreNosDiv2 strong {
     font-size: 35px;
     color: var(--cor3);
+}
+
+.subtitulo2 {
+    font-size: 30px;
+    font-family: var(--fonte-subtitulo);
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.faleConosco{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.faleConoscoContato{
+    text-align: left;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    font-family: var(--font-restante);
+    font-size: 20px;
+    margin: 0 10px; 
+}
+.faleConoscoFomrulario {
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    background-color: var(--cor0);
+    border-radius: 10px;
+    font-family: var(--font-restante);
+    font-size: 20px;
+    margin: 0 20px; 
+}
+
+.input-cinza {
+    background-color: #f2f2f2; /* Cinza claro */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #532323;
+}
+
+.footer p{
+    font-family: var(--font-restante);
+    color: white;
 }

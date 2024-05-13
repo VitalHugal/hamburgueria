@@ -83,3 +83,13 @@ document.addEventListener('DOMContentLoaded', function () {
         selectedIngredients.appendChild(li);
     }
 });
+
+function showSubMenu(subMenuId) {
+    var subMenu = document.getElementById(subMenuId);
+    subMenu.style.display = "block";
+}
+
+function hideSubMenu(subMenuId) {
+    var subMenu = document.getElementById(subMenuId);
+    subMenu.style.display = "none";
+}

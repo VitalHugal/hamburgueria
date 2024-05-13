@@ -33,111 +33,119 @@
             <div class="menu">
                 <h2 class="menu-h2">Ingredientes</h2>
                 <ul>
+
                     <!-- lista de pães no menu -->
-                    <div>
-                        <li class="category obrigatorio lista-sem-bolinhas" id="pao">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/bread-loafs.png" alt="Imagem do Pão"><br>
-                                <span style="display: inline-block;">Pães</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient pao">Francês</li>
-                            <li class="ingredient pao">Australiano</li>
-                            <li class="ingredient pao">Brioche</li><br>
-                        </ul>
+
+                    <div class="category obrigatorio lista-sem-bolinhas" id="pao">
+                        <div style="text-align: center;" class="menu-item" onmouseover="showSubMenu('subMenuPao')"
+                            onmouseout="hideSubMenu('subMenuPao')">
+                            <img width="60px" src="img/icones/bread-loafs.png" alt="Imagem do Pão"><br>
+                            <span style="display: inline-block;">Pães</span>
+                            <!-- Movemos a lista de pães para dentro do item de menu -->
+                            <ul class="sub-menu" id="subMenuPao">
+                                <li class="ingredient pao">Francês</li>
+                                <li class="ingredient pao">Australiano</li>
+                                <li class="ingredient pao">Brioche</li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- lista de molhos no menu -->
-                    <div>
-                        <li class="category lista-sem-bolinhas" id="molho">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/sauces.png" alt="Imagem dos molhos"><br>
-                                <span style="display: inline-block;">Molhos</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient">Maionese</li>
-                            <li class="ingredient">Molho especial</li>
-                            <li class="ingredient">Ketchup</li><br>
-                        </ul>
+
+                    <!-- Lista de molhos no menu -->
+
+                    <div class="category lista-sem-bolinhas" id="molho">
+                        <div style="text-align: center;" class="menu-item" onmouseover="showSubMenu('subMenuMolho')"
+                            onmouseout="hideSubMenu('subMenuMolho')">
+                            <img width="60px" src="img/icones/sauces.png" alt="Imagem dos molhos"><br>
+                            <span style="display: inline-block;">Molhos</span>
+                            <!-- Sub-menu de molhos -->
+                            <ul class="sub-menu" id="subMenuMolho">
+                                <li class="ingredient">Maionese</li>
+                                <li class="ingredient">Molho especial</li>
+                                <li class="ingredient">Ketchup</li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- lista de saladas no menu -->
-                    <div>
-                        <li class="category lista-sem-bolinhas" id="salada">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/lettuce.png" alt="Imagem salada"><br>
-                                <span style="display: inline-block;">Saladas</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient">Alface</li>
-                            <li class="ingredient">Tomate</li>
-                            <li class="ingredient">Rúcula</li><br>
-                        </ul>
+
+                    <!-- Lista de saladas no menu -->
+
+                    <div class="category lista-sem-bolinhas" id="salada">
+                        <div style="text-align: center;" class="menu-item" onmouseover="showSubMenu('subMenuSalada')"
+                            onmouseout="hideSubMenu('subMenuSalada')">
+                            <img width="60px" src="img/icones/lettuce.png" alt="Imagem salada"><br>
+                            <span style="display: inline-block;">Saladas</span>
+                            <!-- Sub-menu de saladas -->
+                            <ul class="sub-menu" id="subMenuSalada">
+                                <li class="ingredient">Alface</li>
+                                <li class="ingredient">Tomate</li>
+                                <li class="ingredient">Rúcula</li>
+                            </ul>
+                        </div>
                     </div>
+
                     <!-- lista de carnes no menu -->
-                    <div>
-                        <li class="category lista-sem-bolinhas" id="carne">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/meat.png" alt="Imagem carne"><br>
-                                <span style="display: inline-block;">Carnes</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient">Picanha</li>
-                            <li class="ingredient">Fraldinha</li>
-                            <li class="ingredient">Acém</li><br>
-                        </ul>
+
+                    <div class="category lista-sem-bolinhas" id="carne">
+                        <div style="text-align: center;" class="menu-item" onmouseover="showSubMenu('subMenuCarne')"
+                            onmouseout="hideSubMenu('subMenuCarne')">
+                            <img width="60px" src="img/icones/meat.png" alt="Imagem carne"><br>
+                            <span style="display: inline-block;">Carnes</span>
+                            <ul class="sub-menu" id="subMenuCarne">
+                                <li class="ingredient">Picanha</li>
+                                <li class="ingredient">Fraldinha</li>
+                                <li class="ingredient">Acém</li><br>
+                            </ul>
+                        </div>
                     </div>
+
                     <!-- lista de queijos no menu -->
-                    <div>
-                        <li class="category lista-sem-bolinhas" id="queijo">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/cheese.png" alt="Imagem queijo"><br>
-                                <span style="display: inline-block;">Queijos</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient">Cheddar</li>
-                            <li class="ingredient">Mussarela</li>
-                            <li class="ingredient">Prato</li><br>
-                        </ul>
+
+                    <div class="category lista-sem-bolinhas" id="queijo">
+                        <div style="text-align: center;" class="menu-item" onmouseover="showSubMenu('subMenuQueijo')"
+                            onmouseout="hideSubMenu('subMenuQueijo')">
+                            <img width="60px" src="img/icones/cheese.png" alt="Imagem queijo"><br>
+                            <span style="display: inline-block;">Queijos</span>
+                            <ul class="sub-menu" id="subMenuQueijo">
+                                <li class="ingredient">Cheddar</li>
+                                <li class="ingredient">Mussarela</li>
+                                <li class="ingredient">Prato</li><br>
+                            </ul>
+                        </div>
                     </div>
-                    <div>
-                        <li class="category lista-sem-bolinhas" id="acompanhamento">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/french-fries.png" alt="Imagem acompanhamentos"><br>
-                                <span style="display: inline-block;">Acompanhamentos</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient">Batata-Frita</li>
-                            <li class="ingredient">Nuggets</li>
-                            <li class="ingredient">Onions-rings</li><br>
-                        </ul>
+
+                    <!-- lista de acompanhemenstos no menu -->
+
+                    <div class="category lista-sem-bolinhas" id="acompanhamento">
+                        <div style="text-align: center;" class="menu-item"
+                            onmouseover="showSubMenu('subMenuAcompanhamento')"
+                            onmouseout="hideSubMenu('subMenuAcompanhamento')">
+                            <img width="60px" src="img/icones/french-fries.png" alt="Imagem acompanhamentos"><br>
+                            <span style="display: inline-block;">Acompanhamentos</span>
+                            <ul class="sub-menu-acompanhamento" id="subMenuAcompanhamento">
+                                <li class="ingredient">Batata-Frita</li>
+                                <li class="ingredient">Nuggets</li>
+                                <li class="ingredient">Onions-rings</li><br>
+                            </ul>
+                        </div>
                     </div>
-                    <div>
-                        <li class="category lista-sem-bolinhas" id="bebida">
-                            <div style="text-align: center;">
-                                <img width="50px" src="img/icones/cola.png" alt="Imagem bebida"><br>
-                                <span style="display: inline-block;">Bebidas</span>
-                            </div>
-                            <br>
-                        </li>
-                        <ul class="sub-menu">
-                            <li class="ingredient">Refrigerante</li>
-                            <li class="ingredient">Água</li>
-                            <li class="ingredient">Cerveja</li><br>
-                        </ul>
+                    <!-- lista de bebidas no menu -->
+
+                    <div class="category lista-sem-bolinhas" id="bebida">
+                        <div style="text-align: center;" class="menu-item" onmouseover="showSubMenu('subMenuBebida')"
+                            onmouseout="hideSubMenu('subMenuBebida')">
+                            <img width="60px" src="img/icones/cola.png" alt="Imagem bebida"><br>
+                            <span style="display: inline-block;">Bebidas</span>
+                            <ul class="sub-menu" id="subMenuBebida">
+                                <li class="ingredient">Refrigerante</li>
+                                <li class="ingredient">Água</li>
+                                <li class="ingredient">Cerveja</li><br>
+                            </ul>
+                        </div>
                     </div>
                 </ul>
             </div>
+
+            <!-- fim do menu ingredientes -->
+
             <div class="burger">
                 <h2>Seu lanche</h2>
                 <ul class="selected-ingredients">

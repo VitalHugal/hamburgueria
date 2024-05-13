@@ -60,7 +60,26 @@
 
 .sub-menu {
     display: none;
+    position: absolute;
+    padding-left: 30px;
+    z-index: 1;/* Posiciona a lista ao lado direito da imagem */
+    left: 70px; /* Ajuste a distância do lado direito da imagem */
+    top: 0; /* Ajuste a distância do topo da imagem */
 }
+
+.menu-item {
+    position: relative; /* Adiciona posição relativa para posicionamento absoluto da sub-menu */
+}
+
+.sub-menu-acompanhamento{
+    display: none;
+    position: absolute;
+    padding-left: 100px;
+    z-index: 1;/* Posiciona a lista ao lado direito da imagem */
+    left: 70px; /* Ajuste a distância do lado direito da imagem */
+    top: 0; /* Ajuste a distância do topo da imagem */
+}
+
 
 .sub-menu.show {
     

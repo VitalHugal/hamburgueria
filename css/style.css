@@ -108,9 +108,9 @@ nav>a:hover {
 }
 
 /* Estilos para telas com largura máxima de 1110x722 pixels */
-@media (max-width: 1110px) {
+@media (max-width: 1050px) {
     body {
-        max-width: 1110px; /* Limita a largura máxima do corpo */
+        max-width: 1050px; /* Limita a largura máxima do corpo */
         margin: 0 auto; /* Centraliza o conteúdo na tela */
     }
 }

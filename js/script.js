@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const ingredients = document.querySelectorAll('.ingredient');
     ingredients.forEach(ingredient => {
         ingredient.addEventListener('click', function () {
-            const burger = document.querySelector('.burger');
             const ingredientName = this.textContent;
 
             // Verifica se o ingrediente é uma imagem conhecida
@@ -26,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 image.style.width = '120px';
 
                 // Adicionando o ingrediente como um elemento de imagem
-                addIngredientToBurger(burger, image);
+                addIngredientToCorrectList(ingredientName, image);
             } else {
                 // Adicionando os outros ingredientes como texto
-                addIngredientToBurger(burger, ingredientName);
+                addIngredientToCorrectList(ingredientName, ingredientName);
             }
         });
     });
@@ -42,19 +41,37 @@ document.addEventListener('DOMContentLoaded', function () {
             'Australiano': 'img/ingredientes/australiano.png',
             'Brioche': 'img/ingredientes/brioche.png',
             'Maionese': 'img/ingredientes/maionese.png',
+            'Molho especial': 'img/ingredientes/molho-especial.png',
             'Ketchup': 'img/ingredientes/ketchup.png',
             'Alface': 'img/ingredientes/alface.png',
+            'Tomate': 'img/ingredientes/tomate.png',
+            'Rúcula': 'img/ingredientes/rucula.png',
             'Picanha': 'img/ingredientes/picanha.png',
+            'Fraldinha': 'img/ingredientes/fraldinha.png',
+            'Acém': 'img/ingredientes/acem.png',
             'Cheddar': 'img/ingredientes/cheddar.png',
-            // Adicione outras correspondências de ingredientes aqui
+            'Mussarela': 'img/ingredientes/mussarela.png',
+            'Prato': 'img/ingredientes/queijo-prato.png',
+            'Batata-Frita': 'img/acompanhamentos/batata.jpeg',
+            'Onions-rings': 'img/acompanhamentos/onions.jpeg',
+            'Refrigerante': 'img/bebidas/coca.jpeg',
+            'Cerveja': 'img/bebidas/cerveja.jpeg'
         };
 
         return imageSources[ingredientName];
     }
 
-    // Adiciona os nomes dos ingredientes ou imagens no burger (Seu burger)
-    function addIngredientToBurger(burger, ingredient) {
-        const selectedIngredients = burger.querySelector('.selected-ingredients');
+    // Adiciona os nomes dos ingredientes ou imagens no lugar correto (Seu burger, Acompanhamentos, Bebidas)
+    function addIngredientToCorrectList(ingredientName, ingredient) {
+        let selectedIngredients;
+        if (['Batata-Frita', 'Nuggets', 'Onions-rings'].includes(ingredientName)) {
+            selectedIngredients = document.querySelector('.selected-ingredients-acompanhamentos');
+        } else if (['Refrigerante', 'Água', 'Cerveja'].includes(ingredientName)) {
+            selectedIngredients = document.querySelector('.selected-ingredients-bebidas');
+        } else {
+            selectedIngredients = document.querySelector('.selected-ingredients');
+        }
+
         const li = document.createElement('li');
 
         // Verifica se o ingrediente é uma imagem

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+:root {
+    --cor0: #D9CB04;
+    --cor1: #F2B138;
+    --cor2: #a65a17;
+    --cor3: #F23207;
+    --cor4: #401111;
+
+    --fonte-Titulo: "Archivo Black", sans-serif;
+    --fonte-subtitulo: "M PLUS 1p", sans-serif;
+    --font-restante: "Abel", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-family: var(--fonte-Titulo);
+}
+
+p {
+    font-family: var(--font-restante);
+}
+
+.cardapioL1 {
+    display: flex;
+    /* Display flex para os containers ficarem em linha */
+    justify-content: space-between;
+    /* Espaço entre os containers */
+    width: 150%;
+    height: 600px;
+    max-width: 1200px;
+    /* Ajuste o valor conforme necessário */
+    margin: 0 auto;
+    /* Centraliza na página */
+    padding: 20px;
+    /* Espaçamento interno */
+    box-sizing: border-box;
+    /* O padding está incluso na largura total */
+}
+
+.cardapioL1>div {
+    flex: 1;
+    /* Todos os containers terão a mesma largura */
+    background-color: #f0f0f0;
+    /* Cor de fundo */
+    padding: 20px;
+    /* Espaçamento interno */
+    box-sizing: border-box;
+    /* O padding está incluso na largura total */
+    margin-right: 20px;
+    /* Espaço entre os containers */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.cardapioL2 {
+    display: flex;
+    /* Display flex para os containers ficarem em linha */
+    justify-content: space-between;
+    /* Espaço entre os containers */
+    width: 150%;
+    height: 600px;
+    max-width: 1200px;
+    /* Ajuste o valor conforme necessário */
+    margin: 0 auto;
+    /* Centraliza na página */
+    padding: 20px;
+    /* Espaçamento interno */
+    box-sizing: border-box;
+    /* O padding está incluso na largura total */
+}
+
+.cardapioL2>div {
+    flex: 1;
+    /* Todos os containers terão a mesma largura */
+    background-color: #f0f0f0;
+    /* Cor de fundo */
+    padding: 20px;
+    /* Espaçamento interno */
+    box-sizing: border-box;
+    /* O padding está incluso na largura total */
+    margin-right: 20px;
+    /* Espaço entre os containers */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+
+.um>img {
+    width: 300px;
+}
+
+.dois>img {
+    width: 300px;
+}
+
+.tres>img {
+    width: 255px;
+}
+.quatro>img{
+    width: 300px;
+}
+
+.cinco>img{
+    width: 300px;
+}
+
+.seis>img{
+    width: 300px;
+}

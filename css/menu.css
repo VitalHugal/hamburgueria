@@ -80,11 +80,8 @@
     position: absolute;
     padding-left: 100px;
     z-index: 1;
-    /* Posiciona a lista ao lado direito da imagem */
     left: 70px;
-    /* Ajuste a distância do lado direito da imagem */
     top: 0;
-    /* Ajuste a distância do topo da imagem */
 }
 
 
@@ -147,8 +144,4 @@
 .selected-ingredients-bebidas {
     padding-left: 20px;
     padding: 10px;
-
-}
-.refrigerante{
-    width: 15px;
 }

@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {
             'Cheddar': 'img/ingredientes/cheddar.png',
             'Mussarela': 'img/ingredientes/mussarela.png',
             'Batata-Frita': 'img/acompanhamentos/batatinha sem fundo.png',
-            'Onions-rings': 'img/acompanhamentos/onions.jpeg',
-            'Refrigerante': 'img/bebidas/coca.png',
-            'Cerveja': 'img/bebidas/cerveja.png'
+            'Onions-rings': 'img/ingredientes/onions.png',
+            'Refrigerante':  'img/bebidas/coca.png',
+            'Suco': 'img/bebidas/dellvalle.png'
         };
 
         return imageSources[ingredientName];
@@ -60,9 +60,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Adiciona os nomes dos ingredientes ou imagens no lugar correto (Seu burger, Acompanhamentos, Bebidas)
     function addIngredientToCorrectList(ingredientName, ingredient) {
         let selectedIngredients;
-        if (['Batata-Frita', 'Nuggets', 'Onions-rings'].includes(ingredientName)) {
+        if (['Batata-Frita', 'Onions-rings'].includes(ingredientName)) {
             selectedIngredients = document.querySelector('.selected-ingredients-acompanhamentos');
-        } else if (['Refrigerante', 'Água', 'Cerveja'].includes(ingredientName)) {
+        } else if (['Refrigerante', 'Suco'].includes(ingredientName)) {
             selectedIngredients = document.querySelector('.selected-ingredients-bebidas');
         } else {
             selectedIngredients = document.querySelector('.selected-ingredients');

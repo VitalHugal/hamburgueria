@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             'Alface': 'img/ingredientes/alface.png',
             'Tomate': 'img/ingredientes/tomate.png',
             'Picanha': 'img/ingredientes/picanha.png',
+            'Fraldinha': 'img/ingredientes/picanha.png',
             'Acém': 'img/ingredientes/acem.png',
             'Cheddar': 'img/ingredientes/cheddar.png',
             'Mussarela': 'img/ingredientes/mussarela.png',

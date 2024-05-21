@@ -106,14 +106,210 @@ p {
 .tres>img {
     width: 255px;
 }
-.quatro>img{
+
+.quatro>img {
     width: 300px;
 }
 
-.cinco>img{
+.cinco>img {
     width: 300px;
 }
 
-.seis>img{
+.seis>img {
     width: 300px;
+}
+
+.precoUm {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    /* Alinha verticalmente ao centro */
+    padding-left: 10px;
+    /* Ajuste o valor conforme necessário para espaçamento à esquerda */
+}
+
+.precoUm>p {
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
+    text-align: left;
+    /* Este é o padrão, mas incluí para clareza */
+}
+
+.adicionarUm {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    display: flex;
+    background-color: #F23207;
+    border-radius: 20%;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.adicionarUm>p {
+    color: #f0f0f0;
+}
+
+.precoDois {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    /* Alinha verticalmente ao centro */
+    padding-left: 10px;
+    /* Ajuste o valor conforme necessário para espaçamento à esquerda */
+}
+
+.precoDois>p {
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
+    text-align: left;
+    /* Este é o padrão, mas incluí para clareza */
+}
+
+.adicionarDois {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    display: flex;
+    background-color: #F23207;
+    border-radius: 20%;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.adicionarDois>p {
+    color: #f0f0f0;
+}
+
+.precoTres {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    /* Alinha verticalmente ao centro */
+    padding-left: 10px;
+    /* Ajuste o valor conforme necessário para espaçamento à esquerda */
+}
+
+.precoTres>p {
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
+    text-align: left;
+    /* Este é o padrão, mas incluí para clareza */
+}
+
+.adicionarTres {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    display: flex;
+    background-color: #F23207;
+    border-radius: 20%;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.adicionarTres>p {
+    color: #f0f0f0;
+}
+
+.precoQuatro {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 104px;
+    /* Alinha verticalmente ao centro */
+    padding-left: 10px;
+    /* Ajuste o valor conforme necessário para espaçamento à esquerda */
+}
+
+.precoQuatro>p {
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
+    text-align: left;
+    /* Este é o padrão, mas incluí para clareza */
+}
+
+.adicionarQuatro {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    display: flex;
+    background-color: #F23207;
+    border-radius: 20%;
+    margin-left: 180px;
+    cursor: pointer;
+
+}
+
+.adicionarQuatro>p {
+    color: #f0f0f0;
+}
+
+.precoCinco {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    /* Alinha verticalmente ao centro */
+    padding-left: 10px;
+    /* Ajuste o valor conforme necessário para espaçamento à esquerda */
+}
+
+.precoCinco>p {
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
+    text-align: left;
+    /* Este é o padrão, mas incluí para clareza */
+}
+
+.adicionarCinco {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    display: flex;
+    background-color: #F23207;
+    border-radius: 20%;
+    margin-left: 180px;
+    cursor: pointer;
+
+}
+
+.adicionarCinco>p {
+    color: #f0f0f0;
+}
+
+.precoSeis {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 94px;
+    /* Alinha verticalmente ao centro */
+    padding-left: 10px;
+    /* Ajuste o valor conforme necessário para espaçamento à esquerda */
+}
+
+.precoSeis>p {
+    margin: 0;
+    /* Remove a margem padrão do parágrafo */
+    text-align: left;
+    /* Este é o padrão, mas incluí para clareza */
+}
+
+.adicionarSeis {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    display: flex;
+    background-color: #F23207;
+    border-radius: 20%;
+    margin-left: 180px;
+    cursor: pointer;
+
+}
+
+.adicionarSeis>p {
+    color: #f0f0f0;
 }

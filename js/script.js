@@ -41,21 +41,17 @@ document.addEventListener('DOMContentLoaded', function () {
             'Australiano': 'img/ingredientes/australiano.png',
             'Brioche': 'img/ingredientes/brioche.png',
             'Maionese': 'img/ingredientes/maionese.png',
-            'Molho especial': 'img/ingredientes/molho-especial.png',
             'Ketchup': 'img/ingredientes/ketchup.png',
             'Alface': 'img/ingredientes/alface.png',
             'Tomate': 'img/ingredientes/tomate.png',
-            'Rúcula': 'img/ingredientes/rucula.png',
             'Picanha': 'img/ingredientes/picanha.png',
-            'Fraldinha': 'img/ingredientes/fraldinha.png',
             'Acém': 'img/ingredientes/acem.png',
             'Cheddar': 'img/ingredientes/cheddar.png',
             'Mussarela': 'img/ingredientes/mussarela.png',
-            'Prato': 'img/ingredientes/queijo-prato.png',
-            'Batata-Frita': 'img/acompanhamentos/batata.jpeg',
+            'Batata-Frita': 'img/acompanhamentos/batatinha sem fundo.png',
             'Onions-rings': 'img/acompanhamentos/onions.jpeg',
-            'Refrigerante': 'img/bebidas/coca.jpeg',
-            'Cerveja': 'img/bebidas/cerveja.jpeg'
+            'Refrigerante': 'img/bebidas/coca.png',
+            'Cerveja': 'img/bebidas/cerveja.png'
         };
 
         return imageSources[ingredientName];

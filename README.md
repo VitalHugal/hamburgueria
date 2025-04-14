@@ -1,4 +1,5 @@
-#Seu Burguer — Monte o Lanche do Seu Jeito! 🍔 
+#Seu Burguer 
+Monte o Lanche do Seu Jeito! 🍔 
 
 Projeto desenvolvido para fins de estudo e aprendizado, utilizando HTML, CSS e JavaScript puro.
 
